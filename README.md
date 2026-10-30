@@ -24,11 +24,6 @@ karşılaştırmak ve farkları satır numarasıyla görmek.
   tüm satırlar eklenen veya silinen olarak gösterilir.
 - Yapıştırma, klavye ile gezinme ve görünür odak desteği; açık/koyu tema.
 
-## Ekran görüntüsü
-
-Bu depoda ekran görüntüsü **yoktur**; uydurma görsel eklenmemiştir. Kendi görüntünüzü
-1440 px ve 390 px genişlikte alıp hangi tarayıcı sürümüyle üretildiğini yazın.
-
 ## Gereksinimler
 
 - Güncel Chrome, Edge, Firefox veya Safari.
@@ -76,12 +71,6 @@ php -S 127.0.0.1:8000
 - Metinler sayfa ömrü boyunca yalnızca bellekte tutulur.
 - Çok uzun satırlarda tablo hücresi kendi içinde kayar; satır kırılması yapılmaz.
 
-## Lisans
-
-- Bu proje için **henüz bir lisans seçilmemiştir**; bu depoda `LICENSE` dosyası yoktur.
-  Yayına almadan önce sahibinin lisans seçip eklemesi gerekir. Bu README lisans vaadi değildir.
-- Üçüncü taraf kod yoktur.
-
 ## Test edilenler
 
 2026-10-28, Edge/Chromium 156 ve PHP 8.3.36 ile:
@@ -102,11 +91,3 @@ php -S 127.0.0.1:8000
 - 1500 satırlık üst sınırda performans ve bellek davranışı ölçülmedi.
 - Kelime düzeyinde (satır içi) fark yoktur; yalnızca satır bazlı karşılaştırma yapılır.
 - Boşluk/girinti farkları ayrı bir seçenekle yok sayılmaz.
-
-## Ayrı GitHub deposu olarak yayınlama
-
-1. Bu klasörü yeni depoya kopyalayın.
-2. GitHub Pages için dosyayı **`index.html`** olarak yeniden adlandırın.
-3. Pages → "Deploy from a branch" → `main` / `root`.
-4. Yayın sonrası gerçek bir karşılaştırma ve mobil görünümü doğrulayın.
-5. Lisans seçip `LICENSE` ekleyin; gerçek ekran görüntüsü ekleyin.
